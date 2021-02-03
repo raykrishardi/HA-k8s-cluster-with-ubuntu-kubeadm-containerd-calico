@@ -4,6 +4,7 @@ Install latest k8s cluster (v1.20) with Ubuntu OS (20.04.1 LTS (Focal Fossa)) us
 ## Prerequisites
 > https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#before-you-begin
 
+## Steps
 ## 1. Ensure that the `br_netfilter` module is loaded on the controlplane and worker node
 > https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#letting-iptables-see-bridged-traffic
 ```
