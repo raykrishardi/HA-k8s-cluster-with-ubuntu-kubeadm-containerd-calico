@@ -1,5 +1,5 @@
 # Install k8s cluster with Ubuntu (OS), kubeadm, containerd (CRI), and calico (CNI)
-Install latest k8s cluster (v1.20) with Ubuntu OS (20.04.1 LTS (Focal Fossa)) using kubeadm with containerd as CRI and calico as CNI plugin
+Install latest k8s cluster (v1.20) with Ubuntu OS (20.04.1 LTS (Focal Fossa)) using kubeadm with containerd as CRI and calico as CNI plugin in a single controlplane and worker node setup.
 
 ## Prerequisites
 > https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#before-you-begin
