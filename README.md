@@ -5,7 +5,7 @@ Install latest k8s cluster (v1.20) with Ubuntu OS (20.04.1 LTS (Focal Fossa)) us
 > https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/#before-you-begin
 
 ## Steps
-## 1. Create L4 load balancer for the controlplane nodes (kube-apiserver) 
+## 1. Create L4 load balancer using HAProxy for the controlplane nodes (load balance between the kube-apiservers) 
 - LB listening on TCP port 6443 and redirect traffic to the controlplane nodes kube-apiserver (TCP port 6443)
 > https://github.com/raykrishardi/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md#the-kubernetes-frontend-load-balancer
 ```
